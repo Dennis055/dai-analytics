@@ -1,12 +1,17 @@
-# Kedro starter for the Spaceflights tutorial (`kedro-starter-spaceflights`)
+# Kedro starter for DAI (Data Analytics & Insight ) 
+
 
 ## Overview
 
-This is a tutorial project, which was generated using `Kedro 0.16.5`. It is the completed version of the [Space Flights tutorial](https://kedro.readthedocs.io/en/stable/03_tutorial/01_spaceflights_tutorial.html) described in the [online Kedro documentation](https://kedro.readthedocs.io) and includes the data necessary to run the project.
+Personally I use Cookiecutter to initiate data analytics project
 
-The tutorial works through the steps necessary to create this project. To learn the most about Kedro, we recommend that you start with a blank template as the tutorial describes, and follow the workflow. However, if you prefer to read swiftly through the documentation and get to work on the code, you may want to generate a new Kedro project using this [starter](https://kedro.readthedocs.io/en/stable/02_get_started/06_starters.html) because the steps have been done for you.
+Simply run : 
 
-To use this starter, create a new Kedro project using the commands below. To make sure you have the required dependencies, run it in your virtual environment (see [our documentation about virtual environments](https://kedro.readthedocs.io/en/stable/02_get_started/01_prerequisites.html#virtual-environments) for guidance on how to get set up):
+```bash
+cookiecutter https://github.com/Dennis055/dai-analytics.git
+```
+
+
 
 ```bash
 pip install kedro==0.16.5
