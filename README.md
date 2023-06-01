@@ -25,6 +25,16 @@ Install the required dependencies:
 kedro install
 ```
 
+## How to install dependencies
+
+Declare any dependencies in `src/requirements.txt` for `pip` installation and `src/environment.yml` for `conda` installation.
+
+To install them, run:
+
+```
+pip install -r src/requirements.txt
+```
+
 Now you can run the project:
 
 ```bash
