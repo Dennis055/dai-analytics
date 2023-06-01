@@ -15,7 +15,7 @@ cookiecutter https://github.com/Dennis055/dai-analytics.git
 
 ```bash
 pip install kedro==0.16.5
-kedro new --starter git+https://github.com/quantumblacklabs/kedro-starter-spaceflights.git
+kedro new --starter git+https://github.com/Dennis055/dai-analytics.git
 cd <my-project-name>  # change directory into newly created project directory
 ```
 
