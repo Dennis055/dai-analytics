@@ -1,6 +1,6 @@
 {
-    "project_name": "Spaceflights",
+    "project_name": "{{cookiecutter.project_name}}",
     "repo_name": "{{ cookiecutter.project_name.strip().replace(' ', '-').replace('_', '-').lower() }}",
     "python_package": "{{ cookiecutter.project_name.strip().replace(' ', '_').replace('-', '_').lower() }}",
-    "kedro_version": "{{ cookiecutter.kedro_version }}"
+    "kedro_version": "0.18.3"
 }
